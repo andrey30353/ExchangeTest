@@ -1370,6 +1370,7 @@ GameObject:
   - component: {fileID: 8171100875589956763}
   - component: {fileID: 8171100875589956761}
   - component: {fileID: 8171100875589956760}
+  - component: {fileID: 5076329988584757021}
   m_Layer: 5
   m_Name: ExchangeItem
   m_TagString: Untagged
@@ -1438,6 +1439,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5076329988584757021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171100875589956762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db8ef156aa8cda47a1d9b2c9e3072af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _itemImage: {fileID: 893304956}
+  _itemNameText: {fileID: 1656824735}
+  _itemCountText: {fileID: 1593890987}
+  _itemPriceText: {fileID: 1663746131}
+  _avatarImage: {fileID: 3438271762200713256}
+  _playerNameText: {fileID: 1615556074068047814}
+  _playerLevelText: {fileID: 2038231113}
 --- !u!1 &8171100875804831596
 GameObject:
   m_ObjectHideFlags: 0
